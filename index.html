@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=VT323&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e8b459fdb0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li>
+                <a href="#welcome-section">Welcome</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="welcome-section">
+        <h1 class="hover">Welcome</h1>
+        <p>to my HTML+CSS portfolio</p>
+    </section>
+    <section class="projects" id="projects">
+        <div class="about">
+            <h1>ABOUT ME</h1>
+            <p>Greetings! My name is Henrique Darlim. I'm currently learning Responsive Web Design on <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design">freeCodeCamp</a> and this is the final project for it, made as a way to organize and expose the projects I've done since then.
+            </p>
+        </div>
+        <div class="project-tile">
+            <div class="project-intro">
+                <p>Below are my main projects</p>
+            </div>
+            <div class="gallery">
+            <a href="https://hdarlim.github.io/deleuze/" target="_blank">
+                <div class="flex-div">
+                    <img src="deleuze.png" alt="" class="image" >
+                    <p class="description deleuze">
+                        Deleuze tribute page
+                    </p>
+                </div>
+            </a>
+            <a href="https://hdarlim.github.io/quetzal/" target="_blank">
+                <div class="flex-div">
+                    <img src="quetzalcoatl.jpeg" alt="" class="image">
+                    <p class="description quetzal">
+                    Quetzalcoatl tribute page
+                    </p>
+                </div>
+            </a>
+            <a href="https://hdarlim.github.io/survey-form/" target="_blank">
+                <div class="flex-div">
+                    <img src="survey.png" alt="" class="image">
+                    <p class="description survey">
+                    Survey Form  
+                    </p>
+                </div>
+            </a>
+            <a href="https://hdarlim.github.io/debt-notes/" target="_blank">
+                <div class="flex-div">
+                    <img src="debt.jpg" alt="" class="image">
+                    <p class="description debt">
+                    Annotations on Graeber's <i>Debt</i>
+                    </p>
+                </div>
+            </a>
+            <a href="https://hdarlim.github.io/cruelty-squad/" target="_blank">
+                <div class="flex-div">
+                    <img src="cruelty.png" alt="" class="image">
+                    <p class="description cruelty">
+                    <i>Cruelty Squad</i> landing page
+                    </p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-intro">
+            <h1>You can find me in the following:</h1>
+        </div>
+        <div class="socials">
+            <a href="https://github.com/hdarlim" target="_blank" class="hover" id="profile-link">
+                <i class="fa-brands fa-github fa-3x"></i>
+            </a>
+            <a href="https://twitter.com/henriquedarlim/" target="_blank" class="hover">
+                <i class="fa-brands fa-twitter fa-3x"></i>
+            </a>
+            <a href="https://www.instagram.com/odiosseia/" target="_blank" class="hover">
+                <i class="fa-brands fa-instagram fa-3x"></i>
+            </a>
+            <a href="mailto:henriquedarlim@gmail.com" class="hover">
+                <i class="fa-solid fa-envelope fa-3x"></i>
+            </a>
+            <a href="https://henriquedarlim.substack.com/" target="_blank" class="hover">
+                <i class="fa-solid fa-pen-nib fa-3x"></i>
+            </a>
+        </div>
+    </section> 
+</body>
+</html>
+
+<!-- VERSÃO ANTIGA DO PORTFÓLIO
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title">
+        Welcome to my GitHub page
+    </div>
+    <br>
+    <div>
+        <p>Hello, I’m Henrique Darlim.
+         You can use the links below to access my projects.</p>
+         
+         <h1><a href="https://hdarlim.github.io/deleuze/">Deleuze tribute page</a></h1>
+         
+         <p>A tribute page to the French philosopher Gilles Deleuze, including a selected bibliography, made as a freeCodeCamp project to obtain my certificate in <a href="https://www.freecodecamp.org/learn/responsive-web-design/">Responsive Web Design</a>.</p>
+
+         <h1><a href="https://hdarlim.github.io/quetzal/">Quetzalcoatl tribute page</a></h1>
+
+         <p>A tribute page to the Aztec god Quetzalcoatl, the Feathered Serpent.</p>
+
+         <h1><a href="https://hdarlim.github.io/survey-form/">Survey Form</a></h1>
+
+         <p>A fully responsive survey form also made as a way to obtain a freeCodeCamp certificate.</p>
+
+         <h1><a href="https://hdarlim.github.io/debt-notes/">Annotations on Graeber's <i>Debt: the First 5000 Years</i></a></h1>
+
+         <p>Summary and thought about David Graeber's book. Done to obtain a freeCodeCamp certification.</p>
+
+         <h1><a href="https://hdarlim.github.io/quartz/">My digital garden</a></h1>
+
+         <p>I use <a href="https://quartz.jzhao.xyz/">Quartz</a>, a project by <a href="https://github.com/jackyzha0">Jacky Zhao</a>, to ease the process of digital gardening. I’m still learning how to use it properly — but maybe it’s meant to be an everlasting learning movement.</p>
+      
+         <h1><a href="https://caravinalia.wordpress.com/">caravinalia</a></h1>
+         
+         <p>My personal blog containing texts, translations and notes. I stopped writing for it.</p>
+
+         <h1><a href="https://henriquedarlim.substack.com/">καταιγίς</a></h1>
+
+         <p>My Substack containing more recent literary adventures of mine.</p>
+         
+         <p class="center">For now that’s it!</p>
+         <hr class="tiny">
+    </div>
+</body>
+<footer>
+    <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="http://hdarlim.github.io">hdarlim</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/hdarlim">Henrique Darlim</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>  
+</footer>
+</html>
+
+CSS DA VERSÃO ANTIGA
+
+body {
+    background-color: #293241;
+    color: #c3dfe0;
+    font-family: 'Figtree', sans-serif;
+    font-size: 1em;
+    display: block;
+    margin: 5% 30% 10%;
+    text-align: left;
+}
+.title {
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #8B729E;
+}
+h1 {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+a, a:visited {
+    color: #aa7bc3;
+}
+a:hover {
+    color: #1481ba;
+}
+p {
+    font-weight: 300;
+}
+.tiny {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    width: 3%;
+}
+.center {
+    text-align: center;
+}
+footer {
+    margin-top: inherit;
+    margin-bottom: inherit;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 0.9em;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 5%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    body {
+        margin: 15%;
+    }
+}
+-->
